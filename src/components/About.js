@@ -1,9 +1,11 @@
 import React from 'react'
+import rainBow from '../HOC/rainBow'
 
-export default function About() {
+ const About =()=> {
     return (
         <div>
             <p>About page</p>
         </div>
     )
 }
+export default rainBow(About);
